@@ -1,0 +1,16 @@
+{
+  "name": "bitcore-p2p-cordova",
+  "version": "1.0.0",
+  "description": "Interface to the bitcoin P2P network for Cordova/Phonegap apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache License",
+  "dependencies": {
+    "bitcore-p2p": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1"
+  }
+}
