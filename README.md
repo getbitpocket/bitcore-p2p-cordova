@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/getbitpocket/bitcore-p2p-cordova.svg?branch=master)](https://travis-ci.org/getbitpocket/bitcore-p2p-cordova)
+
 ## Interface to the bitcoin P2P network for Cordova/Phonegap apps
 
 ## Getting Started
