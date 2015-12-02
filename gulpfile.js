@@ -1,5 +1,6 @@
 var gulp  = require('gulp');
 var shell = require('gulp-shell');
+var mocha = require('gulp-mocha');
 
 var commands = [
     ' -r "./node_modules/bitcore-p2p/lib/messages/commands/addr.js:./commands/addr"' ,
@@ -25,7 +26,7 @@ var commands = [
     ' -r "./node_modules/bitcore-p2p/lib/messages/commands/version.js:./commands/version"'
 ];
 
-var browserifyCommand = 'browserify -s bitcore -o bitcore-p2p.js';
+var browserifyCommand = 'browserify -s bitcore -o build/bitcore-p2p.js';
 
 commands.forEach(function (command) {
     browserifyCommand += command;
@@ -36,3 +37,10 @@ browserifyCommand += ' index.js';
 gulp.task('build', shell.task([
     browserifyCommand
 ]));
+
+gulp.task('test', function(done) {
+    return gulp.src(['test/**/*.spec.js'], { read: false })
+        .pipe(mocha({
+            reporter: 'spec'
+        }));
+});

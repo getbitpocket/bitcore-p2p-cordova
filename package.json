@@ -3,14 +3,23 @@
   "version": "1.0.0",
   "description": "Interface to the bitcoin P2P network for Cordova/Phonegap apps",
   "main": "index.js",
+  "keywords": "cordova bitcoin p2p",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
-  "author": "",
+  "author": "Stefan Huber <stefan.huber@beyondit.at>",
   "license": "Apache License",
   "dependencies": {
     "bitcore-p2p": "^1.0.0",
+    "cordova-js": "^4.1.2",
     "gulp": "^3.9.0",
     "gulp-shell": "^0.5.1"
+  },
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
   }
 }
