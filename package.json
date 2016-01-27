@@ -1,6 +1,6 @@
 {
   "name": "bitcore-p2p-cordova",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interface to the bitcoin P2P network for Cordova/Phonegap apps",
   "main": "index.js",
   "keywords": [
