@@ -4,7 +4,7 @@
 
 ## Getting Started
 
- - Add the Plugin to your Cordova project: `cordova plugin add cordova-bitcore-plugin`
+ - Add the Plugin to your Cordova project: `cordova plugin add https://github.com/getbitpocket/bitcore-p2p-cordova`
  - Inside the `index.html` of your Cordova project add the script: `<script type="text/javascript" src="cordova-bitcore.js"></script>` (A better solution might be found in the future, which makes this obsolete, however for now it is problematic to automatically add browserified js files)
 
 ### Example: Connecting to a Peer
