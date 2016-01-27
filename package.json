@@ -4,9 +4,23 @@
   "description": "Interface to the bitcoin P2P network for Cordova/Phonegap apps",
   "main": "index.js",
   "keywords": "cordova bitcoin p2p",
+  "cordova": {
+    "id" : "cordova-bitcore-plugin" ,
+    "platforms" : [
+      "android"
+    ]
+  },
   "scripts": {
     "test": "gulp test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbitpocket/bitcore-p2p-cordova.git"
+  },
+  "bugs": {
+    "url": "https://github.com/getbitpocket/bitcore-p2p-cordova/issues"
+  },
+  "homepage": "https://github.com/getbitpocket/bitcore-p2p-cordova#readme",
   "author": "Stefan Huber <stefan.huber@beyondit.at>",
   "license": "Apache License",
   "dependencies": {
