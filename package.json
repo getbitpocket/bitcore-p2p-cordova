@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "Interface to the bitcoin P2P network for Cordova/Phonegap apps",
   "main": "index.js",
-  "keywords": "cordova bitcoin p2p",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova",
+    "bitcoin",
+    "p2p",
+    "bitcore"
+  ] ,
   "cordova": {
     "id" : "cordova-bitcore-plugin" ,
     "platforms" : [
