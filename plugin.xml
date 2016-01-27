@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-bitcore-plugin"
+        version="1.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <name>Corodva Bitcore Plugin</name>
+    <description>Making Bitcore available within a Cordova/Phonegap app (including bitcore-p2p)</description>
+    <author>Stefan Huber</author>
+    <keywords>bitcore, bitcoin</keywords>
+    <license>Apache 2.0 License</license>
+
+    <asset src="build/cordova-bitcore.js" target="cordova-bitcore.js"></asset>
+
+    <!-- js-module src="build/cordova-bitcore.js">
+        <clobbers target="bitcore" />
+    </js-module -->
+
+    <dependency id="cordova-dns-plugin" url="https://github.com/getbitpocket/cordova-dns-plugin" commit="master" />
+    <dependency id="cordova-plugin-chrome-apps-sockets-tcp" url="https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-sockets-tcp" commit="master" />
+
+</plugin>

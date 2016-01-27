@@ -26,7 +26,7 @@ var commands = [
     ' -r "./node_modules/bitcore-p2p/lib/messages/commands/version.js:./commands/version"'
 ];
 
-var browserifyCommand = 'browserify -s bitcore -o build/bitcore-p2p.js';
+var browserifyCommand = 'browserify -s bitcore -o build/cordova-bitcore.js';
 
 commands.forEach(function (command) {
     browserifyCommand += command;

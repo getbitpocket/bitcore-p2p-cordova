@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-bitcore-plugin-test"
+        version="1.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <name>Corodva Bitcore Plugin Test</name>
+    <license>Apache 2.0 License</license>
+
+    <js-module src="tests.js" name="tests">
+    </js-module>
+
+</plugin>

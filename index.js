@@ -1,4 +1,4 @@
 var bitcore = require('bitcore-lib');
-bitcore.P2P = require('./lib');
+bitcore.p2p = require('./lib');
 
 module.exports = bitcore;
